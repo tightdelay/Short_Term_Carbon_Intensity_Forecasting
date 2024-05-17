@@ -16,7 +16,7 @@
 <img src="/Tennet_HomeAssistant.png" width="50%">
 -->
 <p>
-  <img src="/results.png width="49%" style="margin-right: 2%;">
+  <img src="/results.png" width="49%" style="margin-right: 2%;">
   <img src="/Tennet_HomeAssistant.png" width="49%">
 </p>
 
