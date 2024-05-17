@@ -71,7 +71,6 @@ python -m ipykernel install --user --name=$MYENV$
 
 Note: Before starting the application, please update API-Key (Line16) [here](/docker/calculations/src/last28days_crawler.py)
 
-
 ```bash
 docker compose -f docker/compose.yaml up -d --build
 ```
@@ -79,8 +78,10 @@ docker compose -f docker/compose.yaml up -d --build
 ## Reproducing results
 
 1 [Data collection:](01_DataCollection.ipynb)
- -  Download power generation data and day-ahead price from Entso-E Transparency (only with [authorized API token](https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_authentication_and_authorisation))
- - 
+ - Collects data Power generation data and day-ahead prices from ENTSO-E and weather data from DWD
+ - Saves each data source in data-folder
+2 [Data preparation:](02_DataPreparation.ipynb)
+- 
 
 1. [Data Collection]
 
@@ -129,9 +130,15 @@ Does a repository contain a table/plot of main results and a script to reproduce
     ├── arima_results_test_$TSOzone$.parquet            -- evaluation result ARIMA
     ├── sarima_results_test_$TSOzone$_400_40024.parquet -- evaluation result SARIMA
     └── tft_results_test_$TSOzone$.parquet              -- evaluation result TFT
+
 └── docker
     └── calculations                                    -- data collection and forecast
     ├── fastapi                                         -- communication
-    ├── homeassistant                                   -- smart home and visualization
-      
+    └── homeassistant                                   -- smart home and visualization
+
+└── best_tft_models                                     -- best models from TFT training
+    └── BEST_tft_50hertz_epoch=14-step=8370.ckpt        -- best model 50Hertz
+    ├── Best_tft_amprion_epoch=12-step=7254.ckpt        -- best model Amprion
+    ├── Best_tft_tennet_epoch=10-step=6138.ckpt         -- best model Tennet
+    └── Best_tft_transnet_epoch=14-step=8370.ckpt       -- best model TransnetBW      
 ```
