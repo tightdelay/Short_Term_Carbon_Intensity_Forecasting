@@ -89,33 +89,16 @@ docker compose -f docker/compose.yaml up -d --build
 - data Description and insights
 
 4 Model assessment:
-- model training, evalation
+- model training, evaluation
 - [ARIMA](04_ARIMA.ipynb)
 - [SARIMA](05_SARIMA.ipynb)
 - TFT  
 
-5[Results:](07_Results.ipynb)
+5 [Results:](07_Results.ipynb)
 
-
-### Training code
-
-Does a repository contain a way to train/fit the model(s) described in the paper?
-
-### Evaluation code
-
-Does a repository contain a script to calculate the performance of the trained model(s) or run experiments on models?
-
-### Pretrained models
-
-Does a repository provide free access to pretrained model weights?
-
-## Results
-
-Does a repository contain a table/plot of main results and a script to reproduce those results?
 
 ## Project structure
 
-(Here is an example from SMART_HOME_N_ENERGY, [Appliance Level Load Prediction](https://github.com/Humboldt-WI/dissertations/tree/main/SMART_HOME_N_ENERGY/Appliance%20Level%20Load%20Prediction) dissertation)
 
 ```bash
 ├── README.md
