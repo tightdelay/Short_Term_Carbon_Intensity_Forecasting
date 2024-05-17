@@ -74,15 +74,15 @@ docker compose -f docker/compose.yaml up -d --build
 
 ## Reproducing results
 
-1 [Data collection:](01_DataCollection.ipynb)
+1 [Data collection](01_DataCollection.ipynb)
  - Data collection of power generation data and day-ahead prices from ENTSO-E and weather data from DWD per TSO zone
 
-2 [Data preparation:](02_DataPreparation.ipynb)
+2 [Data preparation](02_DataPreparation.ipynb)
 - Missing value handling
 - Feature creation
 
-3 [Data analyis:](03_DataAnalysis.ipynb)
-- data Description and insights
+3 [Data analyis](03_DataAnalysis.ipynb)
+- data description and insights
 
 4 Model assessment:
 - model training, evaluation
@@ -90,7 +90,7 @@ docker compose -f docker/compose.yaml up -d --build
 - [SARIMA](05_SARIMA.ipynb)
 - TFT (4 notebooks)
 
-5 [Results:](07_Results.ipynb)
+5 [Results](07_Results.ipynb)
 
 
 ## Project structure
