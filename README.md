@@ -56,7 +56,7 @@ Docker is required to deploy the real-time smart home application.
 
 ### Setup
 
-1a. Data and Model - Create an environment and install requirements
+1a. Data and models - Create an environment and install requirements
 ```bash
 conda create -n "my_env" python=3.10.10
 conda activate my_env
@@ -81,7 +81,18 @@ docker compose -f docker/compose.yaml up -d --build
  - Collects data Power generation data and day-ahead prices from ENTSO-E and weather data from DWD
  - Saves each data source in data-folder
 2 [Data preparation:](02_DataPreparation.ipynb)
-- 
+- Missing value handling
+- Feature creation
+3 [Data analyis:](03_DataAnalysis.ipynb)
+- data Description and insights
+4 Model assessment:
+- model training, evalation
+- [ARIMA](04_ARIMA.ipynb)
+- [SARIMA](05_SARIMA.ipynb)
+- TFT  
+5[Results:](07_Results.ipynb)
+
+
 
 1. [Data Collection]
 
