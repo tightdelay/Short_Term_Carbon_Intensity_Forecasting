@@ -71,6 +71,9 @@ Note: Before starting the application, please update API-Key (Line16) [here](/do
 ```bash
 docker compose -f docker/compose.yaml up -d --build
 ```
+Access Home Assistant on http://localhost:8123/.
+User: root
+Password: root
 
 ## Reproducing results
 
