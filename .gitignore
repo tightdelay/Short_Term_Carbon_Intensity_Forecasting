@@ -1,1 +1,15 @@
 .DS_Store
+.ipynb_checkpoints/01_DataCollection-checkpoint.ipynb
+.gitignore
+.ipynb_checkpoints/01_DataCollection-checkpoint.ipynb
+.ipynb_checkpoints/03_DataAnalysis-checkpoint.ipynb
+data/.ipynb_checkpoints/01_DataCollection-checkpoint.ipynb
+data/.ipynb_checkpoints/01b_DataPreparation-checkpoint.ipynb
+data/.ipynb_checkpoints/02_DataCleaningAndFeatureCreation-checkpoint.ipynb
+data/.ipynb_checkpoints/03_DataAnalysis-checkpoint.ipynb
+data/.ipynb_checkpoints/011_new_DataPreparation-checkpoint.ipynb
+data/.ipynb_checkpoints/240410_kurzer TEst-checkpoint.ipynb
+data/.ipynb_checkpoints/240413_TestNewEntsoePyversion-checkpoint.ipynb
+data/.ipynb_checkpoints/CI_daily_monthly-checkpoint.png
+data/.ipynb_checkpoints/Define Generation 2015-2024 vs- last28day-checkpoint.ipynb
+data/.ipynb_checkpoints/Location to TSO-Zone Mapper-checkpoint.ipynb
