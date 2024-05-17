@@ -112,18 +112,26 @@ Does a repository contain a table/plot of main results and a script to reproduce
 
 ```bash
 ├── README.md
-├── requirements.txt                                -- required libraries                                            -- stores csv file 
-├── plots                                           -- stores image files
-└── src
-    └── data
-        ├── 01_DataCollection.ipynb                 -- data collection
-        ├── 02_DataPreparation.ipynb                -- preparing dataset 
-        └── 03_DataAnalysis.ipynb                   -- data analysis
-    └── model
-        ├── 01_baseline.ipynb                       -- preprocesses data
-        ├── 02_TFT_transfomrer.ipynb                -- preparing datasets
-        ├── model_tuning.ipynb                      -- tuning functions
-        └── run_experiment.ipynb                    -- run experiments 
-        └── plots                                   -- plotting functions          
-    └── docker                                      -- Home Assistant implementation in Docker       
+├── requirements.txt                                    -- required packages
+├── 01_DataCollection.ipynb                             -- Data retrieval
+├── 02_DataPreparation.ipynb                            -- Data cleaning, NA handling     
+├── 03_DataAnalysis.ipynb                               --      
+├── 04_ARIMA.ipynb                                      --  
+├── 05_SARIMA.ipynb                                     --  
+├── 06_TFT_50HZ.ipynb                                   -- TFT model for 50Hertz
+├── 06_TFT_AMPRION.ipynb                                -- TFT model for Amprion    
+├── 06_TFT_TENNET.ipynb                                 -- TFT model for Tennert
+├── 06_TFT_TRANSNET.ipynb                               -- TFT model for 
+├── 07_Results.ipynb                                    -- results collection and calculation
+└──data
+    └── data_DE_$TSOzone$.parquet                       -- final data set of each zone
+    ├── test_$TSOzone$.parquet                          -- Test data set for each zone
+    ├── arima_results_test_$TSOzone$.parquet            -- evaluation result ARIMA
+    ├── sarima_results_test_$TSOzone$_400_40024.parquet -- evaluation result SARIMA
+    └── tft_results_test_$TSOzone$.parquet              -- evaluation result TFT
+└── docker
+    └── calculations                                    -- data collection and forecast
+    ├── fastapi                                         -- communication
+    ├── homeassistant                                   -- smart home and visualization
+      
 ```
