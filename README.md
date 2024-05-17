@@ -52,26 +52,26 @@ The packages, required to run the code, are provided in [requirements.txt](requi
 
 In order to retrieve the energy market data from [ENTSOE](https://transparency.entsoe.eu/), a personal token is required and must be requested [here](https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_authentication_and_authorisation).
 
-Docker is required to start the real-time application.
+Docker is required to deploy the real-time smart home application.
 
 ### Setup
 
-[This is an example]
-
-1. Clone this repository
-
-2a. Model and Data - Create an virtual environment and activate it and install requirements
+1a. Data and Model - Create an environment and install requirements
 ```bash
-conda env create -f environment.yml
-source thesis-env/bin/activate
-pip install --upgrade pip
+conda create -n "my_env" python=3.10.10
+conda activate my_env
+Pip install —upgrade pip
 pip install -r requirements.txt
+<!---
+pip install --user ipykernel
+python -m ipykernel install --user --name=$MYENV$
+-->
 ```
 
 2b. Implementation with Home Assistant and FastAPI
 
 ```bash
-docker compose -f src/docker/compose.yaml up -d --build
+docker compose -f docker/compose.yaml up -d --build
 ```
 
 ## Reproducing results
