@@ -36,8 +36,6 @@
 
 ## Summary
 
-(Short summary of motivation, contributions and results)
-
 **Keywords**: smart home, carbon emissions, forcasting, temporal fusions transformers, 50Hertz, Aprion, Tennet, Transnet 
 
 **Full text**: 
@@ -48,7 +46,10 @@ Additionally, this study presents a smart home solution designed to provide user
 
 ### Dependencies
 
-Which Python version is required? 
+This repository contains the Juypter notebooks in Python Version 3.10.10. 
+The packages, required to run the code, are provided in [requirements.txt](requirements.txt).
+
+In order to retrieve the data from Entsoe, a personal token is required and must be inserted in the
 
 Does a repository have information on dependencies or instructions on how to set up the environment?
 
