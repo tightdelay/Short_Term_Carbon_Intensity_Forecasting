@@ -1,0 +1,5 @@
+- sensor:
+      - name: "CO2_intensity_from"
+        state: "{{ state_attr('sensor.co2_intensity_raw', 'from') }}"
+      - name: "CO2_intensity_actual"
+        state: "{{ state_attr('sensor.co2_intensity_raw', 'intensity')['actual'] }}"

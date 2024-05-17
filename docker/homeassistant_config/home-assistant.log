@@ -1,0 +1,605 @@
+2024-05-17 08:43:41.657 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-17 08:43:43.984 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:43:43.987 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:43:44.016 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:43:44.016 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:44:14.050 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:44:14.098 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:44:44.030 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:44:44.035 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:44:44.103 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:44:44.110 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:45:14.035 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:45:14.093 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:45:44.030 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:45:44.033 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:45:44.049 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:45:44.049 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:46:14.044 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:46:14.073 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:46:44.034 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:46:44.042 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:46:44.052 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:46:44.071 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:47:14.047 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:47:14.086 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:47:44.037 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:47:44.051 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:47:44.060 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:47:44.084 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:48:14.057 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:48:14.122 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:48:44.045 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:48:44.054 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:48:44.068 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:48:44.089 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:49:14.058 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:49:14.084 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:49:44.049 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:49:44.055 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:49:44.059 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:49:44.083 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:50:14.071 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:50:14.132 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:50:44.056 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:50:44.066 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:50:44.068 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:50:44.095 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:51:14.075 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:51:14.129 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:51:44.061 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:51:44.063 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:51:44.071 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:51:44.080 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:52:14.059 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:52:14.093 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:52:44.044 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:52:44.054 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:52:44.055 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:52:44.082 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:53:14.057 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:53:14.091 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:53:44.046 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:53:44.056 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:53:44.057 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:53:44.079 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:54:14.062 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:54:14.096 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:54:44.048 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:54:44.060 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:54:44.061 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:54:44.086 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:55:14.067 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:55:14.102 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:55:44.052 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:55:44.068 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:55:44.070 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:55:44.099 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:56:14.071 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:56:14.097 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:56:44.058 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:56:44.067 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:56:44.073 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:56:44.103 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:57:14.080 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:57:14.113 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:57:44.068 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:57:44.083 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:57:44.124 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:57:44.125 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:58:14.092 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:58:14.141 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:58:44.069 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:58:44.073 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:58:44.089 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:58:44.100 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:59:14.099 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:59:14.156 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 08:59:44.077 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:59:44.086 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 08:59:44.100 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 08:59:44.127 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:00:14.108 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:00:14.142 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:00:44.084 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:00:44.095 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:00:44.108 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:00:44.133 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:01:14.117 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:01:14.173 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:01:44.087 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:01:44.097 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:01:44.120 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:01:44.150 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:02:14.128 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:02:14.173 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:02:44.089 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:02:44.107 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:02:44.126 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:02:44.154 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:03:14.133 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:03:14.165 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:03:44.095 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:03:44.106 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:03:44.140 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:03:44.169 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:04:14.152 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:04:14.209 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:04:44.102 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:04:44.107 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:04:44.147 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:04:44.157 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:05:14.151 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:05:14.198 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:05:44.105 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:05:44.116 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:05:44.151 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:05:44.177 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:06:14.156 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:06:14.180 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:06:44.108 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:06:44.137 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:06:44.157 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:06:44.179 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:07:14.184 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:07:14.214 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:07:44.143 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:07:44.158 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:07:44.193 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:07:44.218 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:08:14.198 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:08:14.228 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:08:44.147 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:08:44.158 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:08:44.200 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:08:44.225 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:09:14.202 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:09:14.235 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:09:44.151 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:09:44.162 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:09:44.204 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:09:44.220 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:10:14.208 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:10:14.233 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:10:44.157 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:10:44.168 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:10:44.210 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:10:44.231 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:11:14.220 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:11:14.259 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:11:44.165 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:11:44.177 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:11:44.221 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:11:44.248 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:12:14.226 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:12:14.260 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:12:44.170 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:12:44.178 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:12:44.229 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:12:44.255 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:13:14.236 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:13:14.276 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:13:44.177 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:13:44.191 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:13:44.240 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:13:44.261 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:14:14.253 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:14:14.318 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:14:44.186 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:14:44.198 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:14:44.248 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:14:44.268 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:15:14.257 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:15:14.290 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:15:44.191 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:15:44.200 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:15:44.262 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:15:44.295 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:16:14.272 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:16:14.311 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:16:44.199 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:16:44.211 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:16:44.274 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:16:44.301 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:17:14.279 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:17:14.310 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:17:44.204 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:17:44.212 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:17:44.283 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:17:44.308 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:18:14.291 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:18:14.323 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:18:44.212 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:18:44.222 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:18:44.294 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:18:44.322 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:19:14.298 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:19:14.332 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:19:44.214 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:19:44.225 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:19:44.301 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:19:44.329 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:20:14.303 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:20:14.330 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:20:44.221 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:20:44.230 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:20:44.306 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:20:44.335 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:21:14.313 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:21:14.329 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:21:44.230 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:21:44.246 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:21:44.319 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:21:44.359 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:22:14.322 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:22:14.354 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:22:44.233 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:22:44.239 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:22:44.329 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:22:44.353 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:23:14.335 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:23:14.359 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:23:44.240 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:23:44.252 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:23:44.341 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:23:44.366 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:24:14.351 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:24:14.401 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:24:44.244 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:24:44.254 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:24:44.353 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:24:44.385 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:25:14.356 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:25:14.385 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:25:44.252 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:25:44.266 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:25:44.362 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:25:44.391 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:26:14.369 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:26:14.396 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:26:44.259 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:26:44.272 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:26:44.375 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:26:44.405 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:27:14.389 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:27:14.451 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:27:44.260 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:27:44.275 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:27:44.381 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:27:44.414 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:28:14.384 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:28:14.429 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:28:44.259 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:28:44.272 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:28:44.387 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:28:44.418 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:29:14.393 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:29:14.424 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:29:44.266 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:29:44.276 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:29:44.399 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:29:44.430 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:30:14.407 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:30:14.434 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:30:44.270 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:30:44.283 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:30:44.411 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:30:44.441 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:31:14.421 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:31:14.462 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:31:44.271 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:31:44.282 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:31:44.424 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:31:44.454 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:32:14.431 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:32:14.461 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:32:44.273 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:32:44.280 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:32:44.437 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:32:44.467 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:33:14.444 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:33:14.474 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:33:44.282 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:33:44.292 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:33:44.451 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:33:44.480 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:34:14.458 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:34:14.469 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:34:44.287 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:34:44.323 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:34:44.463 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:34:44.499 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:35:14.469 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:35:14.497 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:35:44.285 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:35:44.289 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:35:44.469 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:35:44.480 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:36:14.482 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:36:14.546 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:36:44.289 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:36:44.316 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:36:44.479 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:36:44.513 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:37:14.485 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:37:14.518 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:37:44.294 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:37:44.301 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:37:44.489 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:37:44.518 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:38:14.507 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:38:14.574 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:38:44.301 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:38:44.311 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:38:44.501 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:38:44.533 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:39:14.507 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:39:14.539 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:39:44.308 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:39:44.319 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:39:44.512 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:39:44.546 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:40:14.517 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:40:14.543 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:40:44.311 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:40:44.322 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:40:44.522 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:40:44.554 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:41:14.528 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:41:14.608 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:41:44.319 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:41:44.328 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:41:44.526 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:41:44.536 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:42:14.532 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:42:14.550 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:42:44.321 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:42:44.331 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:42:44.537 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:42:44.566 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:43:14.542 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:43:14.575 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:43:44.339 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:43:44.363 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:43:44.545 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:43:44.588 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:44:14.549 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:44:14.577 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:44:44.342 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:44:44.354 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:44:44.552 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:44:44.585 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:45:14.558 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:45:14.591 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:45:44.350 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:45:44.360 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:45:44.565 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:45:44.598 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:46:14.568 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:46:14.601 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:46:44.355 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:46:44.368 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:46:44.572 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:46:44.595 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:47:14.582 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:47:14.623 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:47:44.360 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:47:44.369 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:47:44.585 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:47:44.619 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:48:14.594 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:48:14.641 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:48:44.365 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:48:44.377 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:48:44.594 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:48:44.625 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:49:14.600 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:49:14.633 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:49:44.369 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:49:44.382 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:49:44.605 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:49:44.642 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:50:14.615 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:50:14.672 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:50:44.353 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:50:44.366 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:50:44.597 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:50:44.635 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:51:14.600 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:51:14.631 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:51:44.356 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:51:44.365 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:51:44.603 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:51:44.636 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:52:14.608 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:52:14.643 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:52:44.362 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:52:44.376 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:52:44.614 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:52:44.646 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:53:14.621 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:53:14.657 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:53:44.369 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:53:44.408 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:53:44.627 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:53:44.665 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:54:14.630 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:54:14.668 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:54:44.372 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:54:44.387 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:54:44.637 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:54:44.671 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:55:14.640 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:55:14.679 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:55:44.376 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:55:44.384 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:55:44.646 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:55:44.687 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:56:14.653 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:56:14.687 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:56:44.382 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:56:44.395 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:56:44.657 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:56:44.681 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:57:14.661 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:57:14.701 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:57:44.387 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:57:44.392 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:57:44.665 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:57:44.692 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:58:14.667 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:58:14.702 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:58:44.387 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:58:44.392 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:58:44.672 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:58:44.705 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:59:14.675 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:59:14.707 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 09:59:44.389 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:59:44.393 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 09:59:44.682 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 09:59:44.710 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:00:14.689 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:00:14.727 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:00:44.392 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:00:44.402 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:00:44.695 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:00:44.711 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:01:14.705 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:01:14.757 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:01:44.391 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:01:44.394 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:01:44.703 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:01:44.717 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:02:14.715 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:02:14.764 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:02:44.397 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:02:44.409 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:02:44.713 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:02:44.745 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:03:14.717 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:03:14.753 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:03:44.405 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:03:44.415 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:03:44.724 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:03:44.760 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:04:14.730 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:04:14.763 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:04:44.408 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:04:44.423 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:04:44.736 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:04:44.763 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:05:14.742 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:05:14.774 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:05:44.412 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:05:44.428 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:05:44.749 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:05:44.780 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:06:14.754 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:06:14.785 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:06:44.416 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:06:44.426 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:06:44.760 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:06:44.787 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:07:14.767 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:07:14.801 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:07:44.418 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:07:44.426 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:07:44.771 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:07:44.782 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:08:14.777 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:08:14.819 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:08:44.425 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:08:44.430 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:08:44.776 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:08:44.787 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:09:14.778 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:09:14.806 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:09:44.434 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:09:44.446 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:09:44.783 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:09:44.814 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:10:14.785 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:10:14.816 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:10:44.437 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:10:44.444 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:10:44.791 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:10:44.819 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:11:14.799 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:11:14.838 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:11:44.445 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:11:44.455 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:11:44.803 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:11:44.836 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:12:14.810 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:12:14.842 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:12:44.452 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:12:44.460 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:12:44.816 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:12:44.845 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:13:14.822 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:13:14.853 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:13:44.457 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:13:44.465 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:13:44.824 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:13:44.846 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:14:14.832 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:14:14.863 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:14:44.483 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:14:44.500 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:14:44.854 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:14:44.868 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:15:14.868 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:15:14.890 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:15:44.497 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:15:44.517 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:15:44.872 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:15:44.909 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:16:14.878 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:16:14.908 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:16:44.499 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:16:44.511 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:16:44.887 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:16:44.913 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:17:14.893 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:17:14.922 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:17:44.502 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:17:44.514 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:17:44.900 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:17:44.929 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:18:14.907 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:18:14.928 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:18:44.506 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:18:44.519 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:18:44.913 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:18:44.945 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:19:14.920 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:19:14.947 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:19:44.512 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:19:44.525 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:19:44.925 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:19:44.948 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:20:14.934 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:20:14.971 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:20:44.514 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:20:44.526 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:20:44.938 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:20:44.960 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:21:14.942 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:21:15.001 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:21:44.520 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:21:44.526 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:21:44.942 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:21:44.958 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:22:14.947 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:22:14.985 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:22:44.527 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:22:44.534 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:22:44.946 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:22:44.957 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:23:14.952 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:23:14.989 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}
+2024-05-17 10:23:44.529 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/predict_co2_intensity?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:23:44.545 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"detail":"Not Found"}
+2024-05-17 10:23:44.950 DEBUG (MainThread) [homeassistant.components.rest.data] Updating from http://fastapi:80/get_market_zone?lattidue=53.46189043285914&longitude=8.986816406250002
+2024-05-17 10:23:44.972 DEBUG (MainThread) [homeassistant.components.rest.data] Data fetched from resource: {"location":"DE_TENNET","message":"your location(POINT (8.986816406250002 53.46189043285914)) is in market zone DE_TENNET"}

@@ -1,0 +1,64 @@
+# - platform: rest
+#   name: "1prototype"
+#   resource: http://fastapi:80/json_co2
+#   value_template: "{{ value_json.data[0].from }}"
+#   json_attributes:
+#     - data
+
+# - platform: rest
+#   name: "2prototype"
+#   resource: http://fastapi:80/simple_co2_prediction
+#   value_template: "{{ value_json.data[0].from }}"
+#   json_attributes:
+#     - data
+
+- platform: rest
+  name: "01get_market_zone"
+  resource_template: "http://fastapi:80/get_market_zone?lattidue={{  (state_attr('zone.home', 'latitude')) }}&longitude={{ (state_attr('zone.home', 'longitude')) }}"
+  #params: >
+  #  {"lattidue": 53.210734 , "longitude": 11.724225 }
+  #payload: 
+  value_template: "{{ value_json }}"
+  json_attributes:
+    - location
+    - message 
+
+# - platform: rest
+#   name: "3_prototype"
+#   resource_template: "http://fastapi:80/simple_co2_prediction_with_geodata?lattidue={{  (state_attr('zone.home', 'latitude')) }}&longitude={{ (state_attr('zone.home', 'longitude')) }}"
+#   value_template: "{{ value_json.data[0].from }}"
+#   json_attributes:
+#     - data
+
+
+##### Real-time Arima Forecast #####
+- platform: rest
+  name: "arima"
+  scan_interval: 60  # Set the interval to 60 seconds (adjust as needed)
+  #timeout: 25  # Set the timeout to 25 seconds (adjust as needed)
+  resource_template: "http://fastapi:80/predict_co2_intensity?lattidue={{  (state_attr('zone.home', 'latitude')) }}&longitude={{ (state_attr('zone.home', 'longitude')) }}"
+  value_template: "{{ value_json.data[0].from }}"
+  json_attributes:
+    - data
+  
+# - platform: rest
+#   name: "1prototype"
+#   resource: http://localhost:8000/json_co2
+#   value_template: "{{ value_json.data[0].from }}"
+#   json_attributes:
+#     - data
+
+# - platform: rest
+#   name: "2prototype"
+#   resource: http://localhost:8000/simple_co2_prediction
+#   value_template: "{{ value_json.data[0].from }}"
+#   json_attributes:
+#     - data
+
+# - platform: rest
+#   name: "0get_market_zone"
+#   resource: http://fastapi:80/get_market_zone?lattidue=53.210734&longitude=11.724225
+#   value_template: "{{ value_json }}"
+#   json_attributes:
+#     - location
+#     - message

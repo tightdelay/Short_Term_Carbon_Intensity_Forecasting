@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "MBP",
+      "views": [
+        {
+          "icon": "",
+          "title": "location-based Emission Ferecast",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entity",
+              "entity": "sensor.01get_market_zone",
+              "attribute": "location",
+              "name": "Your TSO Zone"
+            },
+            {
+              "type": "custom:apexcharts-card",
+              "graph_span": "72h",
+              "hours_12": false,
+              "span": {
+                "start": "hour",
+                "offset": "-32h"
+              },
+              "now": {
+                "show": true,
+                "label": "Now"
+              },
+              "header": {
+                "show": true,
+                "title": "CO2_intensity"
+              },
+              "series": [
+                {
+                  "entity": "sensor.arima",
+                  "name": "forecast",
+                  "stroke_width": 2,
+                  "type": "area",
+                  "opacity": 0,
+                  "color": "#730712",
+                  "data_generator": "return entity.attributes.data.map((data, index) => {\n         return [new Date(data.from).getTime()+(1000*60*60*1), data.intensity.forecast];\n      }).sort((a, b) => { return a[0] - b[0] });\n"
+                },
+                {
+                  "entity": "sensor.arima",
+                  "name": "actual",
+                  "data_generator": "return entity.attributes.data.map((data, index) => {\n        return [new Date(data.from).getTime()+(1000*60*60*1) , data.intensity.actual];\n     }).sort((a, b) => { return a[0] - b[0] });\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "person.carl"
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "tts.google_en_com"
+              ],
+              "title": "Text-to-speech (TTS)"
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_mbp",
+              "show_forecast": false
+            },
+            {
+              "type": "statistics-graph",
+              "entities": [
+                {
+                  "entity": "sensor.bitcoin_price",
+                  "name": "Bitcoin Price",
+                  "attribute": "prices",
+                  "unit_of_measurement": "USD"
+                }
+              ],
+              "hours_to_show": 24
+            },
+            {
+              "graph": "line",
+              "type": "sensor",
+              "detail": 2,
+              "entity": "sensor.bitcoin_price",
+              "hours_to_show": 3,
+              "unit": "usd",
+              "icon": "mdi:currency-btc"
+            },
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sensor.speedtest_upload"
+                },
+                {
+                  "entity": "sensor.speedtest_download"
+                }
+              ],
+              "hours_to_show": 5
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

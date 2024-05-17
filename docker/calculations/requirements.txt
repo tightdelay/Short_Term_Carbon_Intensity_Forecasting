@@ -1,0 +1,10 @@
+pmdarima
+statsmodels
+scikit-learn
+scipy
+wetterdienst
+pandas
+numpy
+datetime
+requests
+entsoe-py

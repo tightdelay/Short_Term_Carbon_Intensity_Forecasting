@@ -1,0 +1,16 @@
+#homeassistant
+fastapi
+uvicorn
+pandas
+numpy
+datetime
+requests
+entsoe-py
+scikit-learn
+shapely
+geopandas
+pmdarima
+statsmodels
+scikit-learn
+scipy
+wetterdienst

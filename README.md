@@ -36,8 +36,9 @@
 
 **Keywords**: smart home, carbon emissions, forcasting, temporal fusions transformers, 50Hertz, Aprion, Tennet, Transnet 
 
-**Full text**: [include a link that points to the full text of your thesis]
-*Remark*: a thesis is about research. We believe in the [open science](https://en.wikipedia.org/wiki/Open_science) paradigm. Research results should be available to the public. Therefore, we expect dissertations to be shared publicly. Preferably, you publish your thesis via the [edoc-server of the Humboldt-Universität zu Berlin](https://edoc-info.hu-berlin.de/de/publizieren/andere). However, other sharing options, which ensure permanent availability, are also possible. <br> Exceptions from the default to share the full text of a thesis require the approval of the thesis supervisor.  
+**Full text**: 
+Short-term carbon intensity forecasting is crucial for optimizing energy consumption towards carbon emissions. This thesis focuses on predicting carbon intensity across the four German Transmission System Operators (TSO) zones: 50Hertz, Amprion, Tennet, and TransnetBW. The data sets are enriched by weather and market price data. The accuracies of ARIMA, SARIMA, and Temporal Fusion Transformer (TFT) models is assessed in all four regions. Results indicate that the univariate SARIMA model consistently outperforms both ARIMA and TFT models across all TSO zones, utilizing an input window of 28 days and a forecast length of 24 hours.
+Additionally, this study presents a smart home solution designed to provide users with real-time carbon intensity forecasts. The visualization in Home Assistant and the backend are developed in an open-source microservice architecture approach, allowing for flexible adjustments and integration of various forecasting methods.
 
 ## Working with the repo
 

@@ -1,0 +1,6 @@
+# - platform: rest
+#   name: "CO2_intensity"
+#   resource_template: 'https://api.carbonintensity.org.uk/intensity/{{ (utcnow() - timedelta( days = 1, )).strftime("%Y-%m-%dT%H:%MZ") }}/{{ (utcnow() - timedelta( days = -1, )).strftime("%Y-%m-%dT%H:%MZ") }}'
+#   value_template: "{{ value_json.data[0].from }}"
+#   json_attributes:
+#     - data
