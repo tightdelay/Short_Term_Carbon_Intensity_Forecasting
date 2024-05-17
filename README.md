@@ -103,9 +103,9 @@ Password: root
 ├── requirements.txt                                    -- required packages
 ├── 01_DataCollection.ipynb                             -- Data retrieval
 ├── 02_DataPreparation.ipynb                            -- Data cleaning, NA handling     
-├── 03_DataAnalysis.ipynb                               --      
-├── 04_ARIMA.ipynb                                      --  
-├── 05_SARIMA.ipynb                                     --  
+├── 03_DataAnalysis.ipynb                               -- Data analysis      
+├── 04_ARIMA.ipynb                                      -- ARIMA model 
+├── 05_SARIMA.ipynb                                     -- SARIMA model
 ├── 06_TFT_50HZ.ipynb                                   -- TFT model of 50Hertz
 ├── 06_TFT_AMPRION.ipynb                                -- TFT model of Amprion    
 ├── 06_TFT_TENNET.ipynb                                 -- TFT model of Tennet
