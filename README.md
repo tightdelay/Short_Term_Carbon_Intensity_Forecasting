@@ -93,17 +93,9 @@ docker compose -f docker/compose.yaml up -d --build
 - [ARIMA](04_ARIMA.ipynb)
 - [SARIMA](05_SARIMA.ipynb)
 - TFT  
+
 5[Results:](07_Results.ipynb)
 
-
-
-1. [Data Collection]
-
-Here are some examples:
-- [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
-- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
-- [Simple & clear Example from Paperswithcode](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
-- [Example TensorFlow](https://github.com/NVlabs/selfsupervised-denoising)
 
 ### Training code
 
