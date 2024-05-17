@@ -28,9 +28,6 @@
     - [Dependencies](#Dependencies)
     - [Setup](#Setup)
 - [Reproducing results](#Reproducing-results)
-    - [Training code](#Training-code)
-    - [Evaluation code](#Evaluation-code)
-    - [Pretrained models](#Pretrained-models)
 - [Results](#Results)
 - [Project structure](-Project-structure)
 
@@ -78,8 +75,7 @@ docker compose -f docker/compose.yaml up -d --build
 ## Reproducing results
 
 1 [Data collection:](01_DataCollection.ipynb)
- - Collects data Power generation data and day-ahead prices from ENTSO-E and weather data from DWD
- - Saves each data source in data-folder
+ - Data collection of power generation data and day-ahead prices from ENTSO-E and weather data from DWD per TSO zone
 
 2 [Data preparation:](02_DataPreparation.ipynb)
 - Missing value handling
@@ -108,10 +104,10 @@ docker compose -f docker/compose.yaml up -d --build
 ├── 03_DataAnalysis.ipynb                               --      
 ├── 04_ARIMA.ipynb                                      --  
 ├── 05_SARIMA.ipynb                                     --  
-├── 06_TFT_50HZ.ipynb                                   -- TFT model for 50Hertz
-├── 06_TFT_AMPRION.ipynb                                -- TFT model for Amprion    
-├── 06_TFT_TENNET.ipynb                                 -- TFT model for Tennert
-├── 06_TFT_TRANSNET.ipynb                               -- TFT model for 
+├── 06_TFT_50HZ.ipynb                                   -- TFT model of 50Hertz
+├── 06_TFT_AMPRION.ipynb                                -- TFT model of Amprion    
+├── 06_TFT_TENNET.ipynb                                 -- TFT model of Tennet
+├── 06_TFT_TRANSNET.ipynb                               -- TFT model of TransnetBW
 ├── 07_Results.ipynb                                    -- results collection and calculation
 └──data
     └── data_DE_$TSOzone$.parquet                       -- final data set of each zone
