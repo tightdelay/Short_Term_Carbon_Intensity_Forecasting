@@ -47,11 +47,12 @@ Additionally, this study presents a smart home solution designed to provide user
 ### Dependencies
 
 This repository contains the Juypter notebooks in Python Version 3.10.10. 
+
 The packages, required to run the code, are provided in [requirements.txt](requirements.txt).
 
-In order to retrieve the data from Entsoe, a personal token is required and must be inserted in the
+In order to retrieve the energy market data from [ENTSOE](https://transparency.entsoe.eu/), a personal token is required and must be requested [here](https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_authentication_and_authorisation).
 
-Does a repository have information on dependencies or instructions on how to set up the environment?
+Docker is required to start the real-time application.
 
 ### Setup
 
