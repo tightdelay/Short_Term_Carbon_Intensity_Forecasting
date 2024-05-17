@@ -62,13 +62,15 @@ conda create -n "my_env" python=3.10.10
 conda activate my_env
 Pip install —upgrade pip
 pip install -r requirements.txt
-<!---
 pip install --user ipykernel
 python -m ipykernel install --user --name=$MYENV$
--->
+
 ```
 
 2b. Implementation with Home Assistant and FastAPI
+
+Note: Before starting the application, please update API-Key (Line16) [here](/docker/calculations/src/last28days_crawler.py)
+
 
 ```bash
 docker compose -f docker/compose.yaml up -d --build

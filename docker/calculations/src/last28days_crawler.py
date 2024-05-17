@@ -13,7 +13,7 @@ from wetterdienst.provider.dwd.observation import (DwdObservationRequest,
                                                    DwdObservationParameter, 
                                                    DwdObservationDataset) # =Observation data (historical data)
 
-API_KEY = "55c76530-b737-48af-bf6e-40d4ebde04f2"
+API_KEY = "YOUR_API_KEY"
 
 request_parameter = ['radiation_global',
     'sunshine_duration',
