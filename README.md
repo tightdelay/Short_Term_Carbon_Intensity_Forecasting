@@ -15,7 +15,7 @@
 
 [Insert here a figure explaining your approach or main results]
 
-![results](/result.png)
+![results](/Tennet_HomeAssistant.png)
 
 ## Table of Content
 
