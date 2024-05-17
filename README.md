@@ -12,10 +12,9 @@
 **2nd Examiner:** Prof. Dr. Stefan Lessmann 
 
 
-
-[Insert here a figure explaining your approach or main results]
-
 ![results](/Tennet_HomeAssistant.png)
+<img src="/Tennet_HomeAssistant.png" width="50%">
+
 
 ## Table of Content
 
