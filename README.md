@@ -1,14 +1,17 @@
-# Title
+# Short-Term Carbon Intensity Forecasting
 
-**Type:** Master's Thesis / Bachelor's Thesis
+**Type:** Master's Thesis 
 
-**Author:** xxx
+**Author:** Carl Tramburg
 
-**Supervisor:** xxx (only if different from the 1st or the 2nd Examiner)
 
-**1st Examiner:** xxx 
 
-**2nd Examiner:** xxx 
+
+**1st Examiner:** Dr. Alona Zharova
+
+**2nd Examiner:** Prof. Dr. Stefan Lessmann 
+
+
 
 [Insert here a figure explaining your approach or main results]
 
@@ -31,7 +34,7 @@
 
 (Short summary of motivation, contributions and results)
 
-**Keywords**: xxx (give at least 5 keywords / phrases).
+**Keywords**: smart home, carbon emissions, forcasting, temporal fusions transformers, 50Hertz, Aprion, Tennet, Transnet 
 
 **Full text**: [include a link that points to the full text of your thesis]
 *Remark*: a thesis is about research. We believe in the [open science](https://en.wikipedia.org/wiki/Open_science) paradigm. Research results should be available to the public. Therefore, we expect dissertations to be shared publicly. Preferably, you publish your thesis via the [edoc-server of the Humboldt-Universität zu Berlin](https://edoc-info.hu-berlin.de/de/publizieren/andere). However, other sharing options, which ensure permanent availability, are also possible. <br> Exceptions from the default to share the full text of a thesis require the approval of the thesis supervisor.  
@@ -50,21 +53,27 @@ Does a repository have information on dependencies or instructions on how to set
 
 1. Clone this repository
 
-2. Create an virtual environment and activate it
+2a. Model and Data - Create an virtual environment and activate it and install requirements
 ```bash
-python -m venv thesis-env
+conda env create -f environment.yml
 source thesis-env/bin/activate
-```
-
-3. Install requirements
-```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+2b. Implementation with Home Assistant and FastAPI
+
+```bash
+docker compose -f src/docker/compose.yaml up -d --build
+```
+
 ## Reproducing results
 
-Describe steps how to reproduce your results.
+1 [Data collection:](01_DataCollection.ipynb)
+ -  Download power generation data and day-ahead price from Entso-E Transparency (only with [authorized API token](https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html#_authentication_and_authorisation))
+ - 
+
+1. [Data Collection]
 
 Here are some examples:
 - [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
@@ -94,13 +103,18 @@ Does a repository contain a table/plot of main results and a script to reproduce
 
 ```bash
 ├── README.md
-├── requirements.txt                                -- required libraries
-├── data                                            -- stores csv file 
+├── requirements.txt                                -- required libraries                                            -- stores csv file 
 ├── plots                                           -- stores image files
 └── src
-    ├── prepare_source_data.ipynb                   -- preprocesses data
-    ├── data_preparation.ipynb                      -- preparing datasets
-    ├── model_tuning.ipynb                          -- tuning functions
-    └── run_experiment.ipynb                        -- run experiments 
-    └── plots                                       -- plotting functions                 
+    └── data
+        ├── 01_DataCollection.ipynb                 -- data collection
+        ├── 02_DataPreparation.ipynb                -- preparing dataset 
+        └── 03_DataAnalysis.ipynb                   -- data analysis
+    └── model
+        ├── 01_baseline.ipynb                       -- preprocesses data
+        ├── 02_TFT_transfomrer.ipynb                -- preparing datasets
+        ├── model_tuning.ipynb                      -- tuning functions
+        └── run_experiment.ipynb                    -- run experiments 
+        └── plots                                   -- plotting functions          
+    └── docker                                      -- Home Assistant implementation in Docker       
 ```
