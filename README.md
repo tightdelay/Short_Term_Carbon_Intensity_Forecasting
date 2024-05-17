@@ -88,7 +88,7 @@ docker compose -f docker/compose.yaml up -d --build
 - model training, evaluation
 - [ARIMA](04_ARIMA.ipynb)
 - [SARIMA](05_SARIMA.ipynb)
-- TFT  
+- TFT (4 notebooks)
 
 5 [Results:](07_Results.ipynb)
 
