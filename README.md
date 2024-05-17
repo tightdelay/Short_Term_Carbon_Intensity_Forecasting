@@ -80,11 +80,14 @@ docker compose -f docker/compose.yaml up -d --build
 1 [Data collection:](01_DataCollection.ipynb)
  - Collects data Power generation data and day-ahead prices from ENTSO-E and weather data from DWD
  - Saves each data source in data-folder
+
 2 [Data preparation:](02_DataPreparation.ipynb)
 - Missing value handling
 - Feature creation
+
 3 [Data analyis:](03_DataAnalysis.ipynb)
 - data Description and insights
+
 4 Model assessment:
 - model training, evalation
 - [ARIMA](04_ARIMA.ipynb)
